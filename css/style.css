@@ -1,0 +1,18 @@
+body {
+    background-color: #D5E1EF;
+}
+
+.main {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 22px;
+    color: #1F314F;
+}
+
+.main p {
+    font-size: 15px;
+    color: #68778D;
+}
