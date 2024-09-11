@@ -2,16 +2,20 @@
 
 body {
     background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 main {
     background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 75%;
-    margin: 100px auto 0;
+    margin: 25% auto;
     padding: 5% 2%;
     border-radius: 20px;
 }
@@ -25,7 +29,6 @@ main img {
 main h1 {
     font-size: 22px;
     color: #1F314F;
-    font-family: "Outfit", sans-serif;
     line-height: 120%;
     letter-spacing: 0px;
     margin: 10px;
@@ -34,7 +37,6 @@ main h1 {
 main p {
     font-size: 15px;
     color: #68778D;
-    font-family: "Outfit", sans-serif;
     line-height: 140%;
     letter-spacing: 0.2px;
     margin: 15px;
