@@ -1,18 +1,21 @@
+/* main mobile design */
+
 body {
     background-color: #D5E1EF;
+    width: 100%;
 }
 
 .main {
     background-color: #FFFFFF;
     text-align: center;
-    width: 300px;
+    width: 70%;
     margin: 100px auto 0;
-    padding: 20px;
+    padding: 5% 2%;
     border-radius: 20px;
 }
 
 .main img {
-    width: 275px;
+    width: 90%;
     border-radius: 20px;
 }
 
@@ -38,4 +41,18 @@ body {
     margin-top: 5px;
 }
 
-/* mobile design */
+/* desktop design*/
+
+@media (min-width: 1200px) {
+    .main {
+        width: 300px;
+        padding: 15px 10px;
+    }
+
+    .main img {
+        width: 275px;
+        padding: 15px 5px;
+        margin: 0 auto;
+    }
+
+}
